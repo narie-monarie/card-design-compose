@@ -66,9 +66,17 @@ fun CardUI(modifier: Modifier=Modifier){
             verticalAlignment = Alignment.CenterVertically,
             modifier = Modifier.padding(start = 8.dp, end = 8.dp)
         ){
-            Icon(Icons.Filled.ArrowBack, contentDescription = "back", modifier = Modifier.size(16.dp), tint = MaterialTheme.colorScheme.onBackground)
+            Icon(Icons.Filled.ArrowBack, contentDescription = "back", 
+                 modifier = Modifier.size(16.dp), 
+                 tint = MaterialTheme.colorScheme.onBackground
+                )
             Spacer(modifier = Modifier.weight(1f))
-            Icon(Icons.Outlined.FavoriteBorder, contentDescription = "back", modifier = Modifier.size(16.dp), tint = MaterialTheme.colorScheme.onBackground)
+            
+            Icon(Icons.Outlined.FavoriteBorder, 
+                 contentDescription = "back", 
+                 modifier = Modifier.size(16.dp), 
+                 tint = MaterialTheme.colorScheme.onBackground
+                )
         }
         Spacer(modifier = Modifier.height(30.dp))
         Column(
